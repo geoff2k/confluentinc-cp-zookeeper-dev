@@ -1,4 +1,4 @@
-FROM confluentinc/cp-zookeeper:5.5.0
+FROM confluentinc/cp-zookeeper
 
 ENV ZOOKEEPER_CLIENT_PORT=2181
 ENV ZOOKEEPER_TICK_TIME=2000
